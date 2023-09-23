@@ -1,0 +1,127 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Пример веб-страницы</title>
+  <link rel="stylesheet" href="CSS(test).css">
+ </head>
+ <body class="body">
+<header>
+  Test
+</header>
+
+
+
+    <div class="mid">
+      <div class="content">
+  <h1 class="a" onclick="NumberPlus()">Заголовок <span> 0 </span> </h1>
+  <div class="panel" >
+  <Button onclick="changeColorPlus()"><p>Color+</p></Button>
+  <button onclick="changeColorMinus()"><p>Color-</p></button>
+  <Button onclick="changeBacgraundColorPlus()"><p>Bacgraund+</p></Button>
+  <button onclick="changeBacgraundColorMinus()"><p>Bacgraund-</p></button>
+  <button onclick="Dead()"><p>Zero</p></button>
+  <Button onclick="NumberPlus()"><p>+</p></Button>
+  <button onclick="NumberMinus()"><p>-</p></button>
+  <button onclick="Save()"><p>Save</p></button>
+  <button onclick="Load()"><p>Load</p></button>
+  <button onclick="ENTER()"><p>Enter</p></button>
+</div>
+  <ul id="list">
+    <li id="list2" >Background <span id="backgroundColor"> peru </span> color <span>  black </span> number <span>0</span></li>
+    
+  </ul>
+  <ul id="list3">
+  <li id="list2" >Save background <span> peru </span> color <span>  black </span> number <span>0</span></li>
+</ul>
+</div>
+
+
+
+
+
+
+<div class="content2">
+  
+  <div class="ups">
+    
+    <h1>Ups</h1>
+
+
+     <input class="TextZone" id="Text1" type="text" value="X" maxlength="31">
+     <div class="Text"> A &#8596; a</div>
+<div id="demo1" class="DemoAa"></div>
+
+  <div class="Text">ENG > RU</div>
+<div id="demo2" class="DemoAa"></div> 
+ <div class="Text"> Ru < ENG</div>
+<div id="demo3" class="DemoAa"></div>
+
+
+</div>
+
+<div class="password">
+
+
+<h1>Password</h1>
+<input class="TextZone" id="Pas" type="password" maxlength="10">
+<button onclick="save()"><p>Save</p></button>
+<div id="SavePassword" class="DemoAa">Save password:---</div>
+
+
+<input class="TextZone" id="Pas2" type="password" maxlength="10" >
+<button onclick="Scan()"><p>Scan</p></button>
+</div>
+<div class="KmToMil">
+
+
+<div class="KmToMile">
+  <h1>Km&#8596;Mil</h1>
+  <input class="Number" id="Km" type="number" placeholder="Km" >
+  <div id="Km(Mile)" class="NumberDemoAa">Mile:---</div>
+  <input class="Number" id="Mile" type="number" placeholder="Mile">
+  <div id="Mile(Km)" class="NumberDemoAa" >Km:---</div>
+</div>
+</div>
+
+<div class="Data">
+  <h1>Data</h1>
+  <input class="Number" id="Day" type="number" placeholder="Day" >
+  
+  <input class="Number" id="Month" type="number" placeholder="Month">
+
+  <input class="Number" id="Year" type="number" placeholder="Year">
+  <button onclick="DataDemo()"><p>Enter</p></button>
+  <div id="DayMonthYear" class="DataDemoAa" >Data:</div>
+</div>
+
+
+
+
+
+
+
+
+ <!---  <button onclick="enter()"><p> A &#8596; a </p></button>
+  
+
+  <button onclick="TransRuEnter()"><p> ENG > RU </p></button>
+  <button onclick="TransEngEnter()"><p> RU > ENG </p></button>
+  <button onclick="FullEnter()"><p> enter </p></button> --->
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+ </body>
+ <script src="JS(test)(TextFull).js"></script>
+ <script src="JS(test)(Text).js"></script>
+ <script src="JS(pasword).js"></script>
+ <script src="JS(KmToMil).js"></script>
+ <script src="JS(Data).js"></script>
+</html>
